@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:id="@+id/browse_picture_prompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/browse_picture_prompt_text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/browse_picture_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="29dp"
+        android:onClick="clickBrowsePicture"
+        android:text="@string/browse_picture_button_text" />
+
+    <ImageView
+        android:id="@+id/picture_preview"
+        android:layout_marginTop="29dp"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.25"
+        android:adjustViewBounds="true"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/image_preview_description"
+        android:scaleType="fitCenter"
+        android:src="@drawable/virtualart_preview_placeholder" />
+
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:layout_gravity="center_horizontal"
+        android:onClick="clickNext"
+        android:text="@string/next_button_text" />
+    
+</LinearLayout>

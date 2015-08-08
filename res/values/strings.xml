@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VirtualARt</string>
+    <string name="instructions_text">Welcome to VirtualARt! Print the PDF Marker below (make sure it\'s actual size!) and tape it to where you want to hang your art. Check your camera settings, and then get started!</string>
+    <string name="print_marker_label_text"><a href="https://cybernoodlers.files.wordpress.com/2015/08/hiro_pattern1.pdf">Download PDF Marker</a></string>
+    <string name="camera_settings_button_text">Camera Settings</string>
+    <string name="get_started_button_text">Get Started!</string>
+    <string name="title_activity_select_picture">Select Picture</string>
+    <string name="browse_picture_prompt_text">Select a picture</string>
+    <string name="browse_picture_button_text">Browse Gallery</string>
+    <string name="browse_picture_error_text">Error loading picture</string>
+    <string name="title_activity_set_dimensions">Set Dimensions</string>
+    <string name="width_prompt_text">Width (cm)</string>
+    <string name="height_prompt_text">Height (cm)</string>
+    <string name="dimension_hint_text">e.g. 22.5</string>
+    <string name="preserve_aspect_ratio_checkbox_text">Preserve Aspect Ratio?</string>
+    <string name="next_button_text">Next</string>
+    <string name="image_preview_description">Image Preview</string>
+    <string name="no_picture_selected_error_text">No picture selected! Choose a picture before continuing.</string>
+    <string name="view_picture_button_text">Let\'s see it!</string>
+    <string name="width_invalid_error_text">Width invalid. Must be a decimal.</string>
+    <string name="height_invalid_error_text">Height invalid. Must be a decimal.</string>
+    <string name="title_activity_picture_viewer">Picture Viewer</string>
+
+</resources>
